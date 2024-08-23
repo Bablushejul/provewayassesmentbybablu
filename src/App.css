@@ -1,38 +1,178 @@
-.App {
-  text-align: center;
+body {
+  background: #F6F6F7;
+  margin: 0;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the .app takes up full viewport height */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  /* border: 1px solid black; */
+  width: 450px;
+  height: 600px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: #FFFFFF;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.offer {
+  width: 350px;
+  height: 75px;
+  border: 0.9px solid #FFFFFF; /* Corrected the border syntax */
+  margin: 10px;
+  border-radius: 12px 0px 0px 12px; /* Corrected the border-radius syntax */
+  box-shadow: 0px 0px 4px 0px #A7A7A740;
+  background: #FFFFFF;
+display: flex;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.offer .rectangle {
+  width: 70px;  /* Set width */
+  height: 100%;  /* Set height */
+  background-color: #FF6B82;  /* Example background color */
+  top: 168px;
+  left: 50px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 12px;
+  border: 0.9px 0.9px 0.9px 0.9px ;
+  opacity: 0px;
+  text-align: center;
+display: flex;
+align-content: center;
+justify-content: center;
+  
+}
+.offer .rectangle  p{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 16.35px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.offer .rectangle1 {
+  
+  height: 100%;  /* Set height */
+  opacity: 0px;
+  border-left: 2px dashed #FF6B82;
+display: flex;
+align-items: center;
+  
+}
+
+
+.productdetails {
+  width: 350px;
+  height: 180px;
+  border: 1px solid #FF6B82; /* Added semicolon */
+  border-radius: 12px 12px 12px 12px; /* Corrected syntax */
+  /* border-width: 1px 0px 0px 0px; Adjusted the border width for different sides */
+  /* opacity: 0; Opacity  between 0 and 1 */
+  background: #FFF9FA;
+  margin: 10px;
+
+}
+
+.amountblock {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.free{
+  color: #FF6B82;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+text-align: left;
+
+
+}
+.total{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+color: #000000;
+
+}
+
+button{
+  cursor: pointer;
+  width: 350px;
+  background: #FF6B82;
+height: 40px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: left;
+  color: #3E3E3E;
+
+}
+.footer p {
+  color:red;
+}
+
+.offerdetails {
+  display: flex;
+  flex-direction: column; /* Align children vertically */
+  justify-content: center; /* Center children vertically within the container */
+  align-items: center; /* Center children horizontally within the container */
+/* Space between children (if any) */
+margin-left: 10px;
+}
+.offerdetails p{
+margin: 0px;
+}
+
+.offers{
+  font-family: Inter;
+font-size: 14.46px;
+font-weight: 400;
+line-height: 17.5px;
+text-align: left;
+
+}
+.offeredprice {
+  font-family: Inter;
+font-size: 14.46px;
+font-weight: 600;
+line-height: 17.5px;
+text-align: left;
+color: #000000;
+
+
+}
+.popular {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: left;
+  margin-left: 20px;
+color: #FF6B82;
+
 }
