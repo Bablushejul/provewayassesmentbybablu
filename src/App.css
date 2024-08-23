@@ -1,5 +1,5 @@
 body {
-  background: #F6F6F7;
+  background: #f6f6f7;
   margin: 0;
   height: 100vh;
 }
@@ -16,107 +16,93 @@ body {
   width: 450px;
   height: 600px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  background: #FFFFFF;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .offer {
   width: 350px;
   height: 75px;
-  border: 0.9px solid #FFFFFF; /* Corrected the border syntax */
+  border: 0.9px solid #ffffff; /* Corrected the border syntax */
   margin: 10px;
   border-radius: 12px 0px 0px 12px; /* Corrected the border-radius syntax */
-  box-shadow: 0px 0px 4px 0px #A7A7A740;
-  background: #FFFFFF;
-display: flex;
-
+  box-shadow: 0px 0px 4px 0px #a7a7a740;
+  background: #ffffff;
+  display: flex;
 }
 
-.offer .rectangle {
-  width: 70px;  /* Set width */
-  height: 100%;  /* Set height */
-  background-color: #FF6B82;  /* Example background color */
+.rectangle {
+  width: 70px;
+  height: 100%;
+  background-color: #ff6b82;
   top: 168px;
   left: 50px;
   gap: 0px;
   border-radius: 12px 0px 0px 12px;
-  border: 0.9px 0.9px 0.9px 0.9px ;
+  border: 0.9px 0.9px 0.9px 0.9px;
   opacity: 0px;
   text-align: center;
-display: flex;
-align-content: center;
-justify-content: center;
-  
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
-.offer .rectangle  p{
+.offer .rectangle p {
   font-family: Inter;
-font-size: 16px;
-font-weight: 600;
-line-height: 16.35px;
-text-align: center;
-color: #FFFFFF;
-
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16.35px;
+  text-align: center;
+  color: #ffffff;
 }
-.offer .rectangle1 {
-  
-  height: 100%;  /* Set height */
+ .rectangle1 {
+  height: 100%;
   opacity: 0px;
-  border-left: 2px dashed #FF6B82;
-display: flex;
-align-items: center;
-  
+  border-left: 2px dashed #ff6b82;
+  display: flex;
+  align-items: center;
 }
-
 
 .productdetails {
   width: 350px;
   height: 180px;
-  border: 1px solid #FF6B82; /* Added semicolon */
-  border-radius: 12px 12px 12px 12px; /* Corrected syntax */
-  /* border-width: 1px 0px 0px 0px; Adjusted the border width for different sides */
-  /* opacity: 0; Opacity  between 0 and 1 */
-  background: #FFF9FA;
+  border: 1px solid #ff6b82;
+  border-radius: 12px 12px 12px 12px;
+  background: #fff9fa;
   margin: 10px;
-
 }
 
 .amountblock {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   gap: 100px;
 }
 
-.free{
-  color: #FF6B82;
+.free {
+  color: #ff6b82;
   font-family: Inter;
-font-size: 14px;
-font-weight: 500;
-line-height: 16.94px;
-text-align: left;
-
-
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
 }
-.total{
+.total {
   font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 16.94px;
-text-align: left;
-color: #000000;
-
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: left;
+  color: #000000;
 }
 
-button{
+button {
   cursor: pointer;
   width: 350px;
-  background: #FF6B82;
-height: 40px;
-
+  background: #ff6b82;
+  height: 40px;
 }
 
 .footer {
@@ -129,42 +115,37 @@ height: 40px;
   font-weight: 600;
   line-height: 16.94px;
   text-align: left;
-  color: #3E3E3E;
-
+  color: #3e3e3e;
 }
 .footer p {
-  color:red;
+  color: red;
 }
 
 .offerdetails {
   display: flex;
-  flex-direction: column; /* Align children vertically */
-  justify-content: center; /* Center children vertically within the container */
-  align-items: center; /* Center children horizontally within the container */
-/* Space between children (if any) */
-margin-left: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
 }
-.offerdetails p{
-margin: 0px;
+.offerdetails p {
+  margin: 0px;
 }
 
-.offers{
+.offers {
   font-family: Inter;
-font-size: 14.46px;
-font-weight: 400;
-line-height: 17.5px;
-text-align: left;
-
+  font-size: 14.46px;
+  font-weight: 400;
+  line-height: 17.5px;
+  text-align: left;
 }
 .offeredprice {
   font-family: Inter;
-font-size: 14.46px;
-font-weight: 600;
-line-height: 17.5px;
-text-align: left;
-color: #000000;
-
-
+  font-size: 14.46px;
+  font-weight: 600;
+  line-height: 17.5px;
+  text-align: left;
+  color: #000000;
 }
 .popular {
   font-family: Inter;
@@ -173,6 +154,5 @@ color: #000000;
   line-height: 16.94px;
   text-align: left;
   margin-left: 20px;
-color: #FF6B82;
-
+  color: #ff6b82;
 }
