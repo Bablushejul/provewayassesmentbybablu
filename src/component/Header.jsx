@@ -3,6 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div className="container">
+        <h3>YAY! It’s BOGO</h3>
       <div className="offer">
         <div className="rectangle">
           <p>
@@ -12,13 +13,13 @@ const Header = () => {
           </p>
         </div>
         <div className="rectangle1">
-            <div>
-                <input type="radio" />
-            </div>
-            <div className="offerdetails">
-                <p className="offers">Buy 1 Get 2</p>
-                <p className="offeredprice">$18.00 USD</p>
-            </div>
+          <div>
+            <input type="radio" />
+          </div>
+          <div className="offerdetails">
+            <p className="offers">Buy 1 Get 2</p>
+            <p className="offeredprice">$18.00 USD</p>
+          </div>
         </div>
       </div>
       <div className="offer">
@@ -30,18 +31,68 @@ const Header = () => {
           </p>
         </div>
         <div className="rectangle1">
-            <div>
-                <input type="radio" />
-            </div>
-            <div className="offerdetails">
-                <p className="offers">Buy 2 Get 4</p>
-                <p className="offeredprice">$24.00 USD</p>
-            </div>
-            <p className="popular">Most Popular</p>
+          <div>
+            <input type="radio" />
+          </div>
+          <div className="offerdetails">
+            <p className="offers">Buy 2 Get 4</p>
+            <p className="offeredprice">$24.00 USD</p>
+          </div>
+          <p className="popular">Most Popular</p>
         </div>
       </div>
       <div className="productdetails">
-        
+        <div className="section1">
+          <div>
+            <input type="radio" />
+          </div>
+          <div className="offerdetails">
+            <p className="offers">Buy 3 Get 6</p>
+            <p className="offeredprice">$36.00 USD</p>
+          </div>
+          <div className="offerdetails">
+            <p className="discount">10 % off</p>
+            <p className="discountPrice">$10.00 USD</p>
+          </div>
+        </div>
+        <div className="section2">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <td>size</td>
+                <td>color</td>
+              </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>#1</td>
+                <td>
+                  <select>
+                    <option>s</option>
+                  </select>
+                </td>
+                <td>
+                  <select>
+                    <option>Black</option>
+                  </select>
+                </td>
+              </tr> <tr>
+                <td>#2</td>
+                <td>
+                  <select>
+                    <option>s</option>
+                  </select>
+                </td>
+                <td>
+                  <select>
+                    <option>Black</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
       <div className="amountblock">
         <p className="free">Free Delivery</p>
