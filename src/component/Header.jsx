@@ -6,7 +6,7 @@ const Header = () => {
         <h3>YAY! It’s BOGO</h3>
       <div className="offer">
         <div className="rectangle">
-          <p>
+          <p className="unique">
             30%
             <br />
             OFF
@@ -24,7 +24,7 @@ const Header = () => {
       </div>
       <div className="offer">
         <div className="rectangle">
-          <p>
+          <p className="unique">
             30%
             <br />
             OFF

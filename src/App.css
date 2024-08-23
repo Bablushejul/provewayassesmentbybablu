@@ -8,11 +8,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Ensure the .app takes up full viewport height */
+  height: 100vh; 
 }
 
 .container {
-  /* border: 1px solid black; */
   width: 450px;
   height: 600px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -26,9 +25,9 @@ body {
 .offer {
   width: 350px;
   height: 75px;
-  border: 0.9px solid #ffffff; /* Corrected the border syntax */
+  border: 0.9px solid #ffffff; 
   margin: 10px;
-  border-radius: 12px 0px 0px 12px; /* Corrected the border-radius syntax */
+  border-radius: 12px 0px 0px 12px; 
   box-shadow: 0px 0px 4px 0px #a7a7a740;
   background: #ffffff;
   display: flex;
@@ -49,7 +48,7 @@ body {
   align-content: center;
   justify-content: center;
 }
-.offer .rectangle p {
+.unique {
   font-family: Inter;
   font-size: 16px;
   font-weight: 600;
