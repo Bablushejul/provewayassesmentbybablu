@@ -56,42 +56,44 @@ const Header = () => {
           </div>
         </div>
         <div className="section2">
-          <table>
-            <thead>
-              <tr>
-                <th></th>
-                <td>size</td>
-                <td>color</td>
-              </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>#1</td>
-                <td>
-                  <select>
-                    <option>s</option>
-                  </select>
-                </td>
-                <td>
-                  <select>
-                    <option>Black</option>
-                  </select>
-                </td>
-              </tr> <tr>
-                <td>#2</td>
-                <td>
-                  <select>
-                    <option>s</option>
-                  </select>
-                </td>
-                <td>
-                  <select>
-                    <option>Black</option>
-                  </select>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <table>
+  <thead>
+    <tr>
+      <th></th>
+      <td>size</td>
+      <td>color</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#1</td>
+      <td>
+        <select>
+          <option>s</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option>Black</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>#2</td>
+      <td>
+        <select>
+          <option>s</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option>Black</option>
+        </select>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
         </div>
       </div>
       <div className="amountblock">
@@ -99,22 +101,23 @@ const Header = () => {
         <p>Total : $18.00 USD</p>
       </div>
       <button>
-        <svg
-          width="12"
-          height="12"
-          viewBox="0 0 12 12"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          style={{ marginRight: "20px" }}
-        >
-          <path
-            d="M6 1.33333V10.6667M1.33333 6H10.6667"
-            stroke="white"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
+      <svg
+  width="12"
+  height="12"
+  viewBox="0 0 12 12"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  style={{ marginRight: "20px" }}
+>
+  <path
+    d="M6 1.33333V10.6667M1.33333 6H10.6667"
+    stroke="white"
+    strokeWidth="2"  
+    strokeLinecap="round"  
+    strokeLinejoin="round"  
+  />
+</svg>
+
         Add to Cart
       </button>
       <div className="footer">
