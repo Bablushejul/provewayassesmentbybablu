@@ -189,8 +189,9 @@ opacity: 0px;
   text-align: left;
   color: #000000;
   text-decoration: line-through; /* Adds a line through the text */
-  text-decoration-style: dashed; 
+  text-decoration-style: dashed; /* Make sure this style is properly applied */
 }
+
 
 .section2 {
   margin-left: 20px;
